@@ -1,0 +1,60 @@
+.server-monitor {
+  text-align: center;
+  padding: 20px;
+  color: #333;
+}
+
+.status-summary {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+ 
+}
+
+.online-count, .offline-count {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.server-lists {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.server-list {
+  width: 400px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.online {
+  background-color: #e0f7e0;
+}
+
+.offline {
+  background-color: #ffe0e0;
+}
+
+.server-list h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.server-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.server-list li {
+  font-size: 1.2em;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.server-list li span {
+  margin-left: 10px;
+}

@@ -1,16 +1,16 @@
 ## Monitoramentos de Ips para servidores 
 
-![Texto Alternativo](./frontend//imagens/image.png)
+![Texto Alternativo](./ui//imagens/image.png)
 
 ## Front end 
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Back end 
-
-
+### `npm install`
 ### `node server.js`
 
 Launches the test runner in the interactive watch mode.\
